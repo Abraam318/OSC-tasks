@@ -7,9 +7,9 @@ cd ../logs
 touch system.log error.log file1.pdf file2.pdf
 cd ../data
 touch data.csv info.txt
-nano ~/project_files/reports/report1.md
+nano ~/project_files/report/report1.md
 nano ../logs/system.log
-nano ~/project_files/data/data.csv
+nano ~/project_files_data/data.csv
 cd ../logs
 tar -cf logs_backup.tar system.log error.log file1.pdf file2.pdf
 mv logs_backup.tar ../
